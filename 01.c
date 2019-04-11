@@ -16,6 +16,7 @@ void *sleepy_storyteller(char *original_story) {
     while(token != NULL){
         printf("%s\n", token);
         token = strtok(NULL, " ");
+		sleep(1);
 
     }
 
